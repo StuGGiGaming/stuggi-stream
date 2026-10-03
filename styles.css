@@ -154,6 +154,22 @@ height: auto;
     margin-top: 15px;
 }
 
+.mod-grid {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 25px;
+}
+
+.mod-card {
+background-color: #ffffff;
+padding: 30px;
+border-radius: 8px;
+}
+
+.mod-card h3 {
+font-size: 2rem;
+margin-bottom: 10px;
+}
 
 /* ========================================
    COMMANDS & ALERTS
