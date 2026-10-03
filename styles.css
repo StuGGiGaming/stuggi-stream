@@ -1,0 +1,201 @@
+/* ========================================
+   STUGGI – GRUNDLAYOUT
+   ======================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e5e5e5;
+    color: #252c35;
+    line-height: 1.6;
+}
+
+
+/* ========================================
+   TYPOGRAFIE
+   ======================================== */
+
+h1,
+h2,
+h3,
+nav a {
+    font-family: "Hattenschweiler", Impact, sans-serif;
+}
+
+h1,
+h2 {
+    font-weight: 700;
+}
+
+h3,
+nav a {
+    font-weight: 600;
+}
+
+
+/* ========================================
+   NAVIGATION
+   ======================================== */
+
+.main-header {
+    width: 100%;
+    background-color: #252c35;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navigation {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 15px 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 55px;
+    width: auto;
+    display: block;
+}
+
+nav {
+    display: flex;
+    gap: 35px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+}
+
+nav a:hover {
+    opacity: 0.7;
+}
+
+
+/* ========================================
+   HERO / STARTSEITE
+   ======================================== */
+
+.hero {
+    min-height: 70vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    padding: 80px 30px;
+}
+
+.hero h1 {
+    font-size: clamp(4rem, 10vw, 9rem);
+    line-height: 0.9;
+    letter-spacing: 3px;
+}
+
+.hero h2 {
+    font-size: clamp(2rem, 5vw, 4rem);
+    margin-top: 20px;
+}
+
+.hero p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+
+/* ========================================
+   ALLGEMEINE SEKTIONEN
+   ======================================== */
+
+.section {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 100px 30px;
+}
+
+.section-header {
+    margin-bottom: 60px;
+}
+
+.section-header h2 {
+    font-size: clamp(2.5rem, 5vw, 5rem);
+    line-height: 1;
+}
+
+.section-header h3 {
+    font-size: clamp(1.3rem, 2.5vw, 2rem);
+    margin-top: 15px;
+}
+
+
+/* ========================================
+   COMMANDS & ALERTS
+   ======================================== */
+
+.command-area {
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.command-area h3 {
+    font-size: 2rem;
+}
+
+
+/* ========================================
+   FOOTER
+   ======================================== */
+
+footer {
+    background-color: #252c35;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* ========================================
+   MOBILE
+   ======================================== */
+
+@media (max-width: 768px) {
+
+    .navigation {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px 25px;
+    }
+
+    .hero {
+        min-height: 60vh;
+    }
+
+    .section {
+        padding: 70px 20px;
+    }
+}
