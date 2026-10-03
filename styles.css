@@ -103,11 +103,12 @@ nav a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    margin-bottom:10px
     text-align: center;
     padding: 50px 30px;
 }
 .hero-logo {
+    
 width: 220px;
 height: auto;
 }  
