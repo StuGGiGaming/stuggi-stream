@@ -196,18 +196,18 @@ margin-bottom: 10px;
     margin-bottom: 15px;
 }
 .command-area h4.tier-kern {
-    background-color: #e9edf0;
-    border-left: 5px solid #52616b;
-    padding: 10px 14px;
-    border-radius: 4px;
+    background-color: #eef1f3;
+    border-left: 4px solid #52616b;
+    padding: 8px 12px;
+    border-radius: 3px;
 }
 
 .command-area h4.tier-ehren {
     background-color: #252c35;
     color: #ffffff;
-    border-left: 5px solid #ffffff;
-    padding: 10px 14px;
-    border-radius: 4px;
+    border-left: 4px solid #52616b;
+    padding: 8px 12px;
+    border-radius: 3px;
 }
 .command-area ul {
     display: flex;
