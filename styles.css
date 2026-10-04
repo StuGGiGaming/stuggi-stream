@@ -171,20 +171,7 @@ font-size: 2rem;
 margin-bottom: 10px;
 }
 
-/* ========================================
-   COMMANDS & ALERTS
-   ======================================== */
 
-.command-area {
-    background-color: #ffffff;
-    margin-bottom: 30px;
-    padding: 30px;
-    border-radius: 8px;
-}
-
-.command-area h3 {
-    font-size: 2rem;
-}
 /* ========================================
    COMMANDS & ALERTS
    ======================================== */
@@ -208,7 +195,20 @@ margin-bottom: 10px;
     margin-top: 30px;
     margin-bottom: 15px;
 }
+.command-area h4.tier-kern {
+    background-color: #e9edf0;
+    border-left: 5px solid #52616b;
+    padding: 10px 14px;
+    border-radius: 4px;
+}
 
+.command-area h4.tier-ehren {
+    background-color: #252c35;
+    color: #ffffff;
+    border-left: 5px solid #ffffff;
+    padding: 10px 14px;
+    border-radius: 4px;
+}
 .command-area ul {
     display: flex;
     flex-wrap: wrap;
